@@ -12,9 +12,7 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgIAAxkBAAEDF6Rgrcl1kZNSrAABqO7L-kVd4tWK48MAAi0BAAIw1J0REIYEuS-exNEeBA")
     await message.reply_text(
         f"""<b> Hey,👋 {message.from_user.first_name}!
-\n Hello 👋 there! I can play music in voice chats of Telegeam Groups.
-I have a lot of cool feature that will amaze you!
-\nTo add in your group contact us at @slbotzone .
+\n Groups Music allows you to play music in your groups through the new voice chats recently introduced by Telegram Made Bye @ImTheekshana.e .
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,23 +21,23 @@ I have a lot of cool feature that will amaze you!
             [
                 [
                     InlineKeyboardButton(
-                        "🎧 Music World 🎧 ", url="https://t.me/supunmasl",
+                        "BOT Developer", url="https://t.me/ImTheekshana",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨‍👨‍👦 Group 👨‍👨‍👦 ", url="https://t.me/slbotzone"
+                       "𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝘽𝙊𝙏𝙨 Support", url="https://t.me/Theekshana_Support"
                     ),
                     InlineKeyboardButton(
-                        " 🌀 Channel 🌀 ", url="https://t.me/FreeNetSL"
+                        " 𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 ", url="https://t.me/Theekshana_Official"
                     ),
                     InlineKeyboardButton(
-                        "📦 Source code📦", url="https://github.com/supunmadurangasl/VCPlayBot"
+                        "", url="https://t.me/Theekshana_Official"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group 🎙 ", url="https://t.me/vc_play_slbotzone_bot?startgroup=true"
+                        "➕ Add To Your Group 🎙 ", url="https://t.me/TheSaberMusicBot?startgroup=true"
                     ) 
                 ]
             ]
@@ -53,15 +51,15 @@ I have a lot of cool feature that will amaze you!
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-          "👨‍💻Do you want to search for a YouTube video?",
+          "Do you want to search for a YouTube video?",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " 🌀 Channel 🌀", url="https://t.me/FreeNetSL"
+                        " 𝘽𝙊𝙏𝙨 Support", url="https://t.me/Theekshana_Support"
                     ),
                     InlineKeyboardButton(
-                        " 👨‍👨‍👦 Group 👨‍👨‍👦", url="https://t.me/slbotzone"
+                        " 𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇", url="https://t.me/Theekshana_Official"
                     )
                 ],    
                 [    
@@ -102,15 +100,16 @@ async def help(client: Client, message: Message):
 /end - stop music play
 /userbotjoin - invite assistant to your chat
 /admincache - Refresh admin list
+Made By @ImTheekshana And @Pawan_Theekshana
  </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " 🌀 Channel🌀 ", url="https://t.me/FreeNetSL"
+                        " 𝘽𝙊𝙏𝙨 Support ", url="https://t.me/Theekshana_Support"
                     ),
                     InlineKeyboardButton(
-                        "👨‍Group 👨‍", url="https://t.me/slbotzone"
+                        "𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇", url="https://t.me/Theekshana_Official"
                     )
                 ]
             ]
